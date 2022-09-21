@@ -1,0 +1,32 @@
+{
+  "client": {
+    "css": [
+      "/static/css/client.2de47779.css"
+    ],
+    "js": [
+      "/static/js/client.1939ce72.js"
+    ],
+    "map": [
+      "/static/css/client.2de47779.css.map",
+      "/static/js/client.1939ce72.js.map"
+    ],
+    "chunks": [
+      0
+    ]
+  },
+  "noentry": {
+    "ico": [
+      "/favicon.ico"
+    ],
+    "html": [
+      "/index.html"
+    ],
+    "txt": [
+      "/robots.txt",
+      "/static/js/client.1939ce72.js.LICENSE.txt"
+    ],
+    "svg": [
+      "/static/media/powered_by_gelato_white.f5582e81.svg"
+    ]
+  }
+}
