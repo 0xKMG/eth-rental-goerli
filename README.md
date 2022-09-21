@@ -2,7 +2,6 @@
 
 ## Deployed version url:
 
-https://final-project-jsur.vercel.app
 
 ## How to run this project locally:
 
@@ -35,21 +34,13 @@ https://final-project-jsur.vercel.app
 - `truffle console --network development`
 - `let rr = await Rentals.deployed()`
 - Add two listings:
-- `rr.addProperty(web3.utils.toWei("0.00156"), "Hämeentie 77", "Duplex with a nice view", "https://google.com","https://www.hermannikuvia.fi/wp-content/uploads/Hameentie-77-sisapiha.jpg")`
-- `rr.addProperty(web3.utils.toWei("0.002"), "Mannerheimintie 30 A", "Duplex with a really bad view", "https://google.com","https://www.finna.fi/Cover/Show?id=hkm.HKMS000005%3Akm002zsb&index=0&size=large&source=Solr")`
+- `rr.addProperty(web3.utils.toWei("0.00156"), "Ocean Sea Block 2", "1 bedroom with a nice view", "https://google.com","https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ocean_Pride_in_2020.jpg/1200px-Ocean_Pride_in_2020.jpg")`
+- `rr.addProperty(web3.utils.toWei("0.002"), "MK House", "2 bedrooms with a really bad view", "https://google.com","https://cdn.hk01.com/di/media/images/dw/20220117/559776922540707840591268.jpeg/NDKhrQPBhoMyjVDiGlsOEr3ZhvcR3mBIrjRDKa40Qyk?v=w1920r16_9")`
 - Send ETH to local wallet: `web3.eth.sendTransaction({ from: "<your local address>", to: "<your local network wallet>", value: web3.utils.toWei("10") })`
 - `cd client && yarn start`
 - Open local ui from `http://localhost:3000`
 - Make sure your Metamask localhost network is in port `7545`.
 - If you get `TXRejectedError` when sending a transaction, reset your Metamask account from Advanced settings.
-
-## Screencast link
-
-https://youtu.be/enwECpgoQUg
-
-## Public Ethereum wallet for certification:
-
-`0x109B58ED673Bb241d170b87e4F88c5f426781fC9`
 
 ## Project description
 
