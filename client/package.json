@@ -2,13 +2,10 @@
   "name": "consensys-hackathon-build-a-dapp",
   "version": "1.0.0",
   "license": "UNLICENSED",
-  "homepage": "http://0xkmg.github.io/eth-rental-goerli",
   "scripts": {
     "start": "yarn run build:copy && razzle start",
     "build": "razzle build --noninteractive && cp vercel.json build",
-    "build:copy": "cp -a ../build/. contract-build",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "build:copy": "cp -a ../build/. contract-build"
   },
   "dependencies": {
     "@ethersproject/constants": "^5.4.0",
