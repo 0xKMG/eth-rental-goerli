@@ -1,4 +1,4 @@
-# Final project - Automated rental agreements
+ Eth-Rental
 
 ## Deployed version url:
 
@@ -42,15 +42,6 @@
 - Make sure your Metamask localhost network is in port `7545`.
 - If you get `TXRejectedError` when sending a transaction, reset your Metamask account from Advanced settings.
 
-## Project description
-
-User and apartment owner enter an agreement for renting a property, i.e. exchanging usage rights to an apartment for as long as payments are made to a specific Ethereum account before the agreed deadline.
-
-User receives a keycode / access token to the apartment after first payment. If a user's payments are late, they will receive a reminder after one week. After e.g. 30 days (variable depending on local jurisdiction) of no payments, usage rights will be automatically transferred back to owner and apartment access rights will be revoked from user. User agrees to this procedure when entering contract with owner.
-
-- Checking for received payments and transferring ownership back to owner on non-payment cases could be scheduled with e.g. Gelato Network (https://docs.gelato.network/tutorial).
-- Opening door locks could be done with an app with smart locks, e.g. https://api.getkisi.com/docs. Smart lock APIs won't be explored in this project.
-
 ## Simple workflow
 
 1. Enter service web site
@@ -78,8 +69,8 @@ User receives a keycode / access token to the apartment after first payment. If 
 ## Environment variables (not needed for running project locally)
 
 ```
-ROPSTEN_INFURA_PROJECT_ID=
-ROPSTEN_MNEMONIC=
+GOERLI_INFURA_PROJECT_ID=
+GOERLI_MNEMONIC=
 ```
 
 ## TODO features
