@@ -5,7 +5,9 @@
   "scripts": {
     "start": "yarn run build:copy && razzle start",
     "build": "razzle build --noninteractive && cp vercel.json build",
-    "build:copy": "cp -a ../build/. contract-build"
+    "build:copy": "cp -a ../build/. contract-build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages-d build"
   },
   "dependencies": {
     "@ethersproject/constants": "^5.4.0",
@@ -16,6 +18,7 @@
     "bootstrap": "^4.6.0",
     "date-fns": "^2.27.0",
     "ethers": "^5.1.0",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-icons": "^1.4.0",
